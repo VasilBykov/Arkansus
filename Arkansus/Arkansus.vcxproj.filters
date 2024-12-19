@@ -13,5 +13,81 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\Events">
+      <UniqueIdentifier>{2dd99426-b2fd-4720-91f8-8092d82f8250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Game Mechanics">
+      <UniqueIdentifier>{857da51d-af53-469f-83f4-5bf427fa9ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Main">
+      <UniqueIdentifier>{399d768a-997d-408d-9e00-6672a28bb9c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="random_event.cpp">
+      <Filter>Исходные файлы\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="game_main.cpp">
+      <Filter>Исходные файлы\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="fight.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="game_points.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="increase_police_patrols_event.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="People_are_furious.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="play_durak.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="technology_discussion_event.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="events_1931.cpp">
+      <Filter>Исходные файлы\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="events_1952.cpp">
+      <Filter>Исходные файлы\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="events_1940.cpp">
+      <Filter>Исходные файлы\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="chase.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="handle_crisis.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="manage_cultural_center.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="organize_concert.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="organize_evacuations.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="organize_festival.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="events_1938.cpp">
+      <Filter>Исходные файлы\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="duel.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="structure.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
