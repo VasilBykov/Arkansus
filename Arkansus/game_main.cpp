@@ -1,7 +1,11 @@
-#include <iostream>
+ï»¿#include <iostream>
+#include <iomanip>
+#include <cstdlib>
 #include "structure.h"
 
 using namespace std;
+
+void event_selection();
 
 int main()
 {
@@ -9,9 +13,9 @@ int main()
 
 	int menu_selection;
 
-	cout << "1 - Íîâàÿ èãðà \n";
-	cout << "2 - Ïðîñìîòðåòü ïðîøëûé ðåêîðä \n";
-	cout << "3 - Âûéòè èç èãðû \n";
+	drawCity();
+	cout << "1 - *ÐÐ¾Ð²Ð°Ñ Ð¸Ð³Ñ€Ð°* \n";
+	cout << "2 - !Ð’Ñ‹Ð¹Ñ‚Ð¸ Ð¸Ð· Ð¸Ð³Ñ€Ñ‹! \n";
 
 	do
 	{
@@ -25,14 +29,52 @@ int main()
 		event_selection();
 		break;
 	}
-	case 2:
-	{
-		break;
-	}
 	default:
 		exit(0);
 		break;
 	}
 
 	return 0;
+}
+
+void event_selection()
+{
+	int rmn = 1, rmx = 3;
+	const int MAX = 25;
+	int Game_Event[MAX];
+	int choice;
+
+	srand((unsigned)time(NULL));
+	for (int i = 0; i < MAX; ++i)
+	{
+		Game_Event[i] = rand() % rmx + rmn;
+	}
+
+	for (int i = 0; i < MAX; ++i)
+	{
+		choice = Game_Event[i];
+
+		char symbol = '-';
+		cout << "--Ð”ÐµÐ½ÑŒ â„–" << i + 1 << setw(75) << setfill(symbol) << symbol << endl;
+
+		switch (choice)
+		{
+		case 1:
+			events_1931();
+			break;
+		case 2:
+			events_1940();
+			break;
+		case 3:
+			events_1952();
+			break;
+		default:
+			break;
+		}
+	}
+
+	drawCity();
+	game_points_result();
+
+	cout << "\nÐ¡Ð¿Ð°ÑÐ¸Ð±Ð¾ Ð·Ð° Ð¸Ð³Ñ€Ñƒ!\n";
 }

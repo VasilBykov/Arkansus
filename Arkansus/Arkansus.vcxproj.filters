@@ -22,31 +22,16 @@
     <Filter Include="Исходные файлы\Main">
       <UniqueIdentifier>{399d768a-997d-408d-9e00-6672a28bb9c0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Game Mechanics\Main Mechanics">
+      <UniqueIdentifier>{b4cb4c03-2344-4f37-ac08-97d5bc4db90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Game Mechanics\Other">
+      <UniqueIdentifier>{d2b16b5d-ed40-4e2a-93cc-58ba63859d4d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="random_event.cpp">
-      <Filter>Исходные файлы\Main</Filter>
-    </ClCompile>
     <ClCompile Include="game_main.cpp">
       <Filter>Исходные файлы\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="fight.cpp">
-      <Filter>Исходные файлы\Game Mechanics</Filter>
-    </ClCompile>
-    <ClCompile Include="game_points.cpp">
-      <Filter>Исходные файлы\Game Mechanics</Filter>
-    </ClCompile>
-    <ClCompile Include="increase_police_patrols_event.cpp">
-      <Filter>Исходные файлы\Game Mechanics</Filter>
-    </ClCompile>
-    <ClCompile Include="People_are_furious.cpp">
-      <Filter>Исходные файлы\Game Mechanics</Filter>
-    </ClCompile>
-    <ClCompile Include="play_durak.cpp">
-      <Filter>Исходные файлы\Game Mechanics</Filter>
-    </ClCompile>
-    <ClCompile Include="technology_discussion_event.cpp">
-      <Filter>Исходные файлы\Game Mechanics</Filter>
     </ClCompile>
     <ClCompile Include="events_1931.cpp">
       <Filter>Исходные файлы\Events</Filter>
@@ -57,32 +42,47 @@
     <ClCompile Include="events_1940.cpp">
       <Filter>Исходные файлы\Events</Filter>
     </ClCompile>
-    <ClCompile Include="chase.cpp">
-      <Filter>Исходные файлы\Game Mechanics</Filter>
-    </ClCompile>
-    <ClCompile Include="handle_crisis.cpp">
-      <Filter>Исходные файлы\Game Mechanics</Filter>
-    </ClCompile>
-    <ClCompile Include="manage_cultural_center.cpp">
-      <Filter>Исходные файлы\Game Mechanics</Filter>
-    </ClCompile>
-    <ClCompile Include="organize_concert.cpp">
-      <Filter>Исходные файлы\Game Mechanics</Filter>
-    </ClCompile>
-    <ClCompile Include="organize_evacuations.cpp">
-      <Filter>Исходные файлы\Game Mechanics</Filter>
-    </ClCompile>
-    <ClCompile Include="organize_festival.cpp">
-      <Filter>Исходные файлы\Game Mechanics</Filter>
-    </ClCompile>
-    <ClCompile Include="events_1938.cpp">
-      <Filter>Исходные файлы\Events</Filter>
+    <ClCompile Include="game_points.cpp">
+      <Filter>Исходные файлы\Game Mechanics\Main Mechanics</Filter>
     </ClCompile>
     <ClCompile Include="duel.cpp">
-      <Filter>Исходные файлы\Game Mechanics</Filter>
+      <Filter>Исходные файлы\Game Mechanics\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="technology_discussion_event.cpp">
+      <Filter>Исходные файлы\Game Mechanics\Other</Filter>
     </ClCompile>
     <ClCompile Include="drawing.cpp">
-      <Filter>Исходные файлы\Game Mechanics</Filter>
+      <Filter>Исходные файлы\Game Mechanics\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="organize_festival.cpp">
+      <Filter>Исходные файлы\Game Mechanics\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="organize_evacuations.cpp">
+      <Filter>Исходные файлы\Game Mechanics\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="organize_concert.cpp">
+      <Filter>Исходные файлы\Game Mechanics\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="manage_cultural_center.cpp">
+      <Filter>Исходные файлы\Game Mechanics\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="handle_crisis.cpp">
+      <Filter>Исходные файлы\Game Mechanics\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="chase.cpp">
+      <Filter>Исходные файлы\Game Mechanics\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="play_durak.cpp">
+      <Filter>Исходные файлы\Game Mechanics\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="People_are_furious.cpp">
+      <Filter>Исходные файлы\Game Mechanics\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="increase_police_patrols_event.cpp">
+      <Filter>Исходные файлы\Game Mechanics\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="fight.cpp">
+      <Filter>Исходные файлы\Game Mechanics\Other</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

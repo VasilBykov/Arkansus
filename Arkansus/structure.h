@@ -1,5 +1,3 @@
-void event_selection();
-
 void fight(int enemy_max_damage, int enemy_protection, int enemy_health);
 
 void game_points(int karma_points);
@@ -9,8 +7,6 @@ void events_1931();
 void events_1940();
 
 void events_1952();
-
-void events_1938();
 
 void chase();
 
@@ -35,3 +31,5 @@ int play_durak();
 void duelMechanics();
 
 void drawCity();
+
+void game_points_result();
